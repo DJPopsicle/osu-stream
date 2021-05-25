@@ -76,11 +76,11 @@ namespace osum.GameplayElements.HitObjects.Osu
             if (accuracy < DifficultyManager.HitWindow300 || Player.Autoplay)
                 hitValue = ScoreChange.Hit300;
             else if (accuracy < DifficultyManager.HitWindow100)
-                hitValue = ScoreChange.Hit100;
+                hitValue = ScoreChange.Hit300;
             else if (accuracy < DifficultyManager.HitWindow50)
-                hitValue = ScoreChange.Hit50;
+                hitValue = ScoreChange.Hit300;
             else
-                hitValue = ScoreChange.Miss;
+                hitValue = ScoreChange.Hit300;
 
             if (hitValue != ScoreChange.Miss)
                 PlaySound();
