@@ -362,8 +362,8 @@ namespace osum
 
             Results.RankableScore = new GameplayElements.Scoring.Score()
             {
-                count100 = 55,
-                count50 = 128,
+                count100 = 387,
+                count50 = 387,
                 count300 = 387,
                 countMiss = 0,
                 date = DateTime.Now,
